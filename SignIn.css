@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(210, 208, 208);
+    padding: 0;
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+body .page{
+    margin: 20px 80px;
+}
+
+/* Form */
+
+form {
+    width:100%;
+    color: black;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#container{
+    position: center;
+    width: 38%;
+    margin: 0 auto;
+    padding-top: 100px;
+    width:400px;
+    margin:0 auto;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=submit] {
+
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid black;
+}
+input[type=submit]:hover {
+    background-color: black;
+    color: white;
+
+}
+.container h1{
+    align-items: center;
+    justify-content: center;
+}
+
+/* Fin Form */
