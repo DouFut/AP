@@ -15,6 +15,38 @@ body .page{
     margin: 20px 80px;
 }
 
+/* Barre de navigation */
+
+nav .onglets a{
+  margin-right: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+nav{
+  flex-wrap: wrap;
+  top: 0;
+  background-color: #19446c;
+  padding: 15px 40px;
+  margin-bottom: 100px;
+  display : -webkit-box;
+  display : -ms-flexbox;
+  display : flex;
+  width : 100%;
+  height : 50px;
+-webkit-box-orient : horizontal;
+  -webkit-box-direction : normal;
+  -ms-flex-direction : row;
+  flex-direction : row;
+-webkit-box-pack : start;
+  -ms-flex-pack : start;
+  justify-content : flex-start;
+}
+nav .onglets{
+  -ms-flex : 0 1 auto;
+  flex : 0 1 auto;
+}
+/* Fin barre de navigation */
+
 table {
     margin-left: 50px;
     margin-top: 50px;
@@ -32,25 +64,25 @@ table {
     background-color: #f2f2f2;
   }
 
-p{
+a, p{
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 70px;
     color: blue;
     text-decoration: underline;
   }
 h1{
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .a{
     margin-left: 250px;
 }
 h2{
-  width: 80%;
-  align-items: center;
-  justify-content: center;
+  width: 90%;
+  
 }
 
+/* Forms AjPer */
 .modal {
   position: fixed;
   top: 0;

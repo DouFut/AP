@@ -15,6 +15,67 @@ body .page{
     margin: 20px 80px;
 }
 
+/* Barre de navigation */
+nav{
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    top: 0;
+    background-color: #19446c;
+    padding: 15px 40px;
+    margin-bottom: 100px;
+}
+nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+nav .onglets a{
+    margin-right: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav .search-bar{
+    align-items: center;
+    justify-items: center;
+}
+
+nav .search-bar input[type=text]{
+    align-items: center;
+    justify-items: center;
+    width: 300%;
+    height: 70%;
+    transform: translateX(-70%);
+}
+
+nav .buttons button{
+    padding: 13px 20px;
+    margin-right: 20px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+nav .buttons .login{
+    background-color: inherit;
+    margin-right: 10px;
+    color: #ffffff;
+}
+nav .buttons .register{
+    background-color: #f54266;
+    margin-right: 10px;
+    color: #fff;
+    
+}
+nav.buttons .register a{
+    text-decoration-line: none;
+    color: #fff;
+}
+
+/* Fin barre de navigation */
+
 /* Form */
 
 form {

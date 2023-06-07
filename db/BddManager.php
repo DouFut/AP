@@ -8,9 +8,9 @@ class BddManager
     private function __construct()
     {
         $servername = "localhost"; // Adresse du serveur
-        $username = "id18236452_localhost"; // Nom d'utilisateur par défaut pour WampServer
-        $password = "Judo10400%"; // Mot de passe par défaut pour WampServer
-        $dbname = "id18236452_db"; // Nom de votre base de données PHPMyAdmin
+        $username = "root"; // Nom d'utilisateur par défaut pour WampServer
+        $password = ""; // Mot de passe par défaut pour WampServer
+        $dbname = "nom_de_la_base_de_donnees"; // Nom de votre base de données PHPMyAdmin
 
         // Connexion à la base de données
         $this->connection = new mysqli($servername, $username, $password, $dbname);
