@@ -25,7 +25,6 @@
   // Récupérer les données du formulaire
   $email = $_POST['email'];
   $password = $_POST['password'];
-
   // Connexion à la base de données
   $conn = new mysqli('localhost', 'id18236452_localhost', 'Judo10400%', 'id18236452_db');
 
